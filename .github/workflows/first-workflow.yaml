@@ -1,13 +1,14 @@
-name: First Workflow
+name: Second workflow
 on: [push]
 
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
     steps:
-      - name: echo a string
+      - name: echo some string
         run: echo "Hello World"
-      - name: Multiline Command
+      - name: mutiple comands
         run: |
           node -v
           npm -v
+
